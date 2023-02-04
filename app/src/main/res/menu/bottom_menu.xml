@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/icon__2_"
+        android:id="@+id/home"
+        android:title="Главная"/>
+
+    <item
+        android:icon="@drawable/icon__3_"
+        android:id="@+id/transaction"
+        android:title="Переводы"/>
+
+    <item
+
+        android:icon="@drawable/icon__5_"
+        android:id="@+id/services"
+        android:title="Сервисы"/>
+
+    <item
+        android:icon="@drawable/icon6"
+        android:id="@+id/payments"
+        android:title="Платежи"/>
+
+    <item
+        android:icon="@drawable/icon7"
+        android:id="@+id/story"
+        android:title="История"/>
+
+</menu>

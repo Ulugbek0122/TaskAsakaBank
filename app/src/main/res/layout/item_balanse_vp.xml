@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical">
+
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/imgVisibility"
+        android:layout_width="20dp"
+        android:layout_height="19dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/icon__11_"
+        app:layout_constraintBottom_toBottomOf="@id/tvBalanse"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/tvBalanse"
+        app:layout_constraintTop_toTopOf="@id/tvBalanse" />
+
+    <TextView
+        android:id="@+id/tvBalanse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22 702 450"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/imgVisibility"
+        app:layout_constraintRight_toLeftOf="@id/tvCurrency"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/tvStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* * * * * "
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/imgVisibility"
+        app:layout_constraintRight_toLeftOf="@id/tvCurrency"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="сум"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/tvBalanse"
+        app:layout_constraintLeft_toRightOf="@id/tvBalanse"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvBalanse" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

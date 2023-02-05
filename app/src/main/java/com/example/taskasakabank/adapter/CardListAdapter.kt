@@ -42,6 +42,7 @@ class CardListAdapter : ListAdapter<UserCard, CardListAdapter.ViewHolder>(itemCa
                     bgImage.visibility = View.INVISIBLE
                     logotipCard.setImageResource(data.logotip)
                     numberCard.visibility = View.INVISIBLE
+                    tvCurrency.visibility = View.INVISIBLE
                     moneyIsCard.textSize = 10f
                     moneyIsCard.text = data.money
                     moneyIsCard.alpha = 1f

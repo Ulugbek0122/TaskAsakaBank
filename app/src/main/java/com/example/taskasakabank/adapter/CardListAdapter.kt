@@ -44,6 +44,7 @@ class CardListAdapter : ListAdapter<UserCard, CardListAdapter.ViewHolder>(itemCa
                     numberCard.visibility = View.INVISIBLE
                     moneyIsCard.textSize = 10f
                     moneyIsCard.text = data.money
+                    moneyIsCard.alpha = 1f
                     moneyIsCard.setTextColor(Color.WHITE)
                 }  else {
                     logotipCard.setImageResource(data.logotip)

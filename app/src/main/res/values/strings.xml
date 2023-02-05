@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">TaskAsakaBank</string>
+    <string name="string_balance">22 702 450</string>
+    <string name="string_currency">сум</string>
+    <string name="string_card_number">7436</string>
+    <string name="titlr_korona_pay">Korona Pay</string>
+    <string name="string_tiitle_history">93 551 63 24</string>
+    <string name="string_decription_history">**** 7436</string>
+    <string name="string_balance_history">– 28 000</string>
+    <string name="string_time_history">16:52</string>
+    <string name="string_title_online_card">Виртуальная карта</string>
+    <string name="string_description_online_card">Для online покупок</string>
+    <string name="string_btn_title">Обмен валют</string>
+    <string name="string_btn_currency">Доллар США</string>
+    <string name="string_exchange_mony">11 325</string>
+    <string name="string_exchange_mony1">11 325</string>
+    <string name="string_transfer_mony">Перевод \n на карту</string>
+    <string name="string_last_transfers">Последние транзакции</string>
 </resources>

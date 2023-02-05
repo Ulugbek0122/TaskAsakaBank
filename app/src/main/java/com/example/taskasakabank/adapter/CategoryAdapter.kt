@@ -17,6 +17,9 @@ class CategoryAdapter: ListAdapter<CategoryData, CategoryAdapter.ViewHolder>(ite
     inner class ViewHolder(private val binding: ItemCategoryRvBinding):RecyclerView.ViewHolder(binding.root){
 
 
+        init {
+
+        }
 
         fun onBind(){
             val data = getItem(absoluteAdapterPosition)

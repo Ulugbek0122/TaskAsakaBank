@@ -12,7 +12,6 @@
         android:title="Переводы"/>
 
     <item
-
         android:icon="@drawable/icon__5_"
         android:id="@+id/services"
         android:title="Сервисы"/>

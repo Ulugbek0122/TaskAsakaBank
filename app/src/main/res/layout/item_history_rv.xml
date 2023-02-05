@@ -18,12 +18,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:fontFamily="@font/acrom_medium"
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="3dp"
-        android:text="93 551 63 24"
+        android:text="@string/string_tiitle_history"
         android:textColor="#26263B"
         android:textSize="14sp"
         android:textStyle="bold"
@@ -31,22 +32,24 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:fontFamily="@font/acrom_bold"
         android:id="@+id/tvCardNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="3dp"
-        android:text="**** 7436"
+        android:text="@string/string_decription_history"
         android:textColor="#B3B4C6"
         android:textSize="12sp"
         app:layout_constraintLeft_toLeftOf="@id/tvTitle"
         app:layout_constraintTop_toBottomOf="@id/tvTitle" />
 
     <TextView
+        android:fontFamily="@font/acrom_bold"
         android:id="@+id/tvBalanse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="3dp"
-        android:text="– 28 000"
+        android:text="@string/string_balance_history"
         android:textColor="#F61E2E"
         android:textSize="14sp"
         android:textStyle="bold"
@@ -54,11 +57,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:fontFamily="@font/acrom_bold"
         android:id="@+id/tvTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="16:52"
+        android:text="@string/string_time_history"
         android:textColor="#26263B"
         android:textSize="10sp"
         android:textStyle="bold"

@@ -1,6 +1,7 @@
 package com.example.taskasakabank.screens
 
 import android.os.Bundle
+import android.view.Gravity
 import android.view.View
 import androidx.fragment.app.Fragment
 import by.kirich1409.viewbindingdelegate.viewBinding
@@ -9,7 +10,8 @@ import com.example.taskasakabank.adapter.*
 import com.example.taskasakabank.data.UserCard
 import com.example.taskasakabank.data.UserOnlineCard
 import com.example.taskasakabank.databinding.ScreenMainBinding
-import com.example.taskasakabank.source.LocalDataSource
+import com.example.taskasakabank.data.source.LocalDataSource
+import com.github.rubensousa.gravitysnaphelper.GravitySnapHelper
 
 class MainScreen:Fragment(R.layout.screen_main) {
 
@@ -37,6 +39,9 @@ class MainScreen:Fragment(R.layout.screen_main) {
 
         viewBinding.dotsIndicator.attachTo(viewBinding.viewPager)
         viewBinding.dotsIndicatorOnlineCard.attachTo(viewBinding.onlineCardPager)
+
+        val snapHelper = GravitySnapHelper(Gravity.START)
+        snapHelper.attachToRecyclerView(viewBinding.rvCategory)
     }
 }
 

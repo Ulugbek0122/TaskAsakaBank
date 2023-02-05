@@ -1,4 +1,4 @@
-package com.example.taskasakabank.source
+package com.example.taskasakabank.data.source
 
 import com.example.taskasakabank.R
 import com.example.taskasakabank.data.*
@@ -16,7 +16,7 @@ object LocalDataSource {
         balanceList.add(BalanceData(1,true,"7 265 135"))
         balanceList.add(BalanceData(2,true,"15 437 315"))
 
-        cardList.add(UserCard(1, R.drawable.logotype_uzcard,R.drawable.image_1,7436,"7 265 135"))
+        cardList.add(UserCard(1, R.drawable.logotype_uzcard,R.drawable.image_1,7436,"7 265 135 "))
         cardList.add(UserCard(2,R.drawable.logotype_humo,R.drawable.image_humo,3322,"15 437 315"))
         cardList.add(UserCard(3,R.drawable.icon__defoult,R.drawable.icon__defoult,3322,"Добавить карту"))
 
@@ -28,6 +28,8 @@ object LocalDataSource {
         categoryList.add(CategoryData(2,"MoneySend",R.drawable.logotype_mastercard))
         categoryList.add(CategoryData(3,"Заказать карту",R.drawable.logoty_card))
         categoryList.add(CategoryData(4,"Мой дом",R.drawable.logotype_home))
+        categoryList.add(CategoryData(5,"Korona Pay",R.drawable.logotype_koronapay))
+        categoryList.add(CategoryData(6,"MoneySend",R.drawable.logotype_mastercard))
 
 
         historyList.add(HistoryData(1,R.drawable.usell,"93 551 63 24","**** 7436","– 28 000","16:52"))

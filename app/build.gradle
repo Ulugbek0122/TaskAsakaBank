@@ -60,4 +60,8 @@ dependencies {
 
 
     implementation("com.tbuonomo:dotsindicator:4.3")
+
+
+    //SnapHelper
+    implementation 'com.github.rubensousa:gravitysnaphelper:2.2.2'
 }
